@@ -1,0 +1,22 @@
+{
+  "name": "notificationworker",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/express": "^5.0.1",
+    "amqplib": "^0.10.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "tsc-node": "^0.0.3",
+    "typescript": "^5.8.3",
+    "websocket": "^1.0.35"
+  }
+}
